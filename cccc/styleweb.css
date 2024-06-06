@@ -1,0 +1,327 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333; /* Dark gray text color */
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 20px; /* Add padding to the body */
+    margin: 0; /* Remove default margins */
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: brown;
+}
+
+h1, h3 {
+    text-align: center;
+    font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: red;
+}
+
+h3 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+button {
+    background-color: white;
+    color: blueviolet;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+textarea {
+    color: black;
+}
+
+span {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    flex-grow: 1;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: green;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: darkgreen;
+}
+
+/* Top Section Styles */
+.top_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.image_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About and Biography Section Styles */
+.about_section, .biography_section {
+    padding: 20px;
+}
+
+/* Content Container Styles */
+.content_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_container {
+    margin-top: 20px;
+}
+
+/* Visitor Counter Styles */
+#visitor_counter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#visitor_counter p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Feedback Section Styles */
+#feedback_section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#feedback_section form {
+    display: inline-block;
+    text-align: left;
+}
+
+#feedback_section label {
+    font-size: 16px;
+    color: #555;
+}
+
+#feedback_section textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#feedback_section button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#feedback_section button:hover {
+    background-color: #45a049;
+}
+
+#feedback_section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        margin-bottom: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .top_section h1 {
+        font-size: 30px;
+    }
+
+    .top_section h4 {
+        font-size: 18px;
+    }
+}
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+}
+/* styleweb.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Contact Form Styles */
+#contact {
+    margin-top: 50px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
